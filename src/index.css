@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-sage-50: #f4f6f4;
+  --color-sage-100: #e2e8e3;
+  --color-sage-200: #c6d3c8;
+  --color-sage-300: #9fb5a2;
+  --color-sage-500: #4E6E58;
+  --color-sage-600: #3f5847;
+  --color-sage-700: #334739;
+  --color-sage-800: #29382e;
+  --color-sage-900: #222d25;
+  
+  --color-ochre-50: #fefaf3;
+  --color-ochre-100: #fdf2e1;
+  --color-ochre-500: #E89942;
+  --color-ochre-600: #d07d2f;
+  --color-ochre-700: #af5f22;
+
+  --color-cream-50: #fcfbfa;
+  --color-cream-100: #FAFAFA;
+  --color-cream-200: #f2efe9;
+  --color-cream-300: #e3ded5;
+  
+  --color-charcoal-800: #363b38;
+  --color-charcoal-900: #2D312E;
+
+  --font-sans: "Outfit", "Inter", sytem-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer utilities {
+  .organic-shadow {
+    box-shadow: 0 4px 20px -2px rgba(78, 110, 88, 0.08), 0 2px 8px -1px rgba(78, 110, 88, 0.04);
+  }
+}

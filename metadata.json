@@ -1,0 +1,8 @@
+{
+  "name": "CookFlow",
+  "description": "A smart, budget-conscious cooking to-do planner that coordinates a multi-agent workflow to build customized meal plans, grocery lists, substitutions, and budget breakdowns based on your daily routine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
